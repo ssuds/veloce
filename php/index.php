@@ -8,8 +8,8 @@
     <div id="splash-container">
       <div id="splash"></div>
 
-      <img class="splash-content" id="desktop" src="./img/orangelogo.png">
-      <img class="splash-content" id="mobile" src="./img/orangelogoleft.png">
+      <img class="splash-content" id="desktop" src="./img/whitelogo.png">
+      <img class="splash-content" id="mobile" src="./img/whitelogoleft.png">
     </div>
 
     <?php include './header.php'; ?>
