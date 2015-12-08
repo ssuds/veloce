@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html>
+<div id="logo-container">
+      <div id="logo"></div>
+</div>
   <head>
     <?php include './head.php'; ?>
   </head>
 
   <body class="home">
+  <!--
     <div id="splash-container">
       <div id="splash"></div>
 
       <img class="splash-content" id="desktop" src="./img/orangelogo.png">
       <img class="splash-content" id="mobile" src="./img/orangelogoleft.png">
+     
     </div>
+    -->
 
     <?php include './header.php'; ?>
+    <div id="splash-container">
+      <div id="splash"></div>
+</div>
     <div id="content-wrapper" class="content container">
       <div id="main-content" class="row">
         <div class="col-md-8">

@@ -48,7 +48,7 @@ h4 {
 }
 
 #splash-container {
-  height: calc(~'100% - 100px');
+  height: calc(~'90% - 100px');
   width: 100%;
   position: relative;
 
@@ -65,6 +65,45 @@ h4 {
   }
 
   .splash-content {
+    z-index: 999;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 70%;
+    width: initial;
+  }
+
+  #desktop {
+    display: block;
+  }
+
+  #mobile {
+    display:none;
+  }
+}
+#logo-container {
+  height: calc(~'40% - 100px');
+  width: 100%;
+  position: relative;
+  background-position: center center;
+ 
+
+  #logo {
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("./img/orangelogo.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+  }
+
+  .logo-content {
     z-index: 999;
     display: block;
     position: absolute;
@@ -139,13 +178,13 @@ h4 {
 
   .navbar {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     -webkit-font-smoothing: antialiased !important;
 
     .container {
       .transition(all @transition-time);
-      margin-top: 25px;
-      margin-bottom: 25px;
+      margin-top: 5px;
+      margin-bottom: 5px;
       max-width: 100%;
     }
 
