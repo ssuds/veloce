@@ -37,6 +37,9 @@
 
           
           <img src="./img/rendered_five.jpg">
+
+
+
         </div>
 
         <div class="col-md-4">
@@ -48,5 +51,29 @@
     </div>
 
     <?php include './footer.php'; ?>
+    <h3>
+         <center>
+          <a href="//www.twitter.com/IllinoisFSAE" target="_blank">
+            <i class="icon-twitter"></i>
+          </a>        
+
+          <a href="//www.facebook.com/IlliniMotorsports" target="_blank">
+            <i class="icon-facebook"></i>
+          </a>
+               
+          <a href="//www.youtube.com/user/IlliniMotorsports" target="_blank">
+            <i class="icon-youtube"></i>
+          </a>
+                
+          <a href="//www.instagram.com/illinoisfsae" target="_blank">
+            <i class="icon-instagram"></i>
+          </a>
+                
+          <a href="//www.linkedin.com/company/illini-motorsports" target="_blank">
+            <i class="icon-linkedin"></i>
+          </a>
+      </center>
+       </h3>
+
   </body>
 </html>
