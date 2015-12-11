@@ -7,8 +7,34 @@
   <body class="team">
     <?php include './header.php'; ?>
 
-    <div class="content container">
-      <h1>2015-2016 Team Leaders</h1>
+<!--
+ <div class="panel panel-default">
+          <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2015">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2015">
+                2014-2015 Team Leaders
+              </a>
+            </h4>
+          </div>
+
+          <div id="collapse-2015" class="panel-collapse collapse">
+-->
+<div class="content container"> 
+
+  <div class="panel-group" id="accordion">
+
+    <div class="panel panel-default">
+
+      <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2016">
+        <h4 class="panel-title">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2016">
+            2015-2016
+         </a>
+       </h4>
+      </div>
+    <div id="collapse-2016" class="panel-collapse collapse in">
+   
+     <h1>2015-2016 Team Leaders</h1> 
 
       <div class="row">
         <div class="col-md-4">
@@ -440,7 +466,21 @@
       </div>
 -->
     </div>
+  </div>
+</div>
 
+    <!--new-->
+ <div class="panel panel-default">
+    <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2015">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2015">
+          2014-2015
+        </a>
+      </h4>
+    </div>
+
+          <div id="collapse-2015" class="panel-collapse collapse">
+          
     <div class="content container">
       <h1>2014-2015 Team Leaders</h1>
 
@@ -905,6 +945,19 @@
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+          <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2014">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2014">
+                2013-2014
+              </a>
+            </h4>
+          </div>
+
+          <div id="collapse-2014" class="panel-collapse collapse">
 
     <div class="content container">
       <h1>2013-2014 Team Leaders</h1>
@@ -1370,7 +1423,8 @@
         </div>
       </div>
     </div>
-
+  </div>
+</div>
     <?php include './footer.php'; ?>
   </body>
 </html>
