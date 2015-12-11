@@ -19,9 +19,18 @@
     -->
 
     <?php include './header.php'; ?>
+    <!--
     <div id="splash-container">
       <div id="splash"></div>
-</div>
+</div> -->
+<div id="cp_widget_e9219b4f-43db-4406-adea-a4a5d2ea621a">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_e9219b4f-43db-4406-adea-a4a5d2ea621a"; cpo["_fid"] = "AQCAQINBEVWr";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script><noscript>Powered by Cincopa <a href='http://www.cincopa.com/video-hosting'>Video Hosting for Business</a> solution.<span>Illini Motorsports</span><span>Photos of Illini Motorsports - The Formula SAE team at the University of Illinois</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 2048</span><span>height</span><span> 889</span><span>flash</span><span> 16</span><span>cameramake</span><span> Canon</span><span>height</span><span> 889</span><span>camerasoftware</span><span> PhotoScape</span><span>originaldate</span><span> 5/16/2015 5:15:27 PM</span><span>width</span><span> 2048</span><span>cameramodel</span><span> Canon EOS 60D</span></noscript>
+
     <div id="content-wrapper" class="content container">
       <div id="main-content" class="row">
         <div class="col-md-8">
