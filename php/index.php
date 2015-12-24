@@ -51,8 +51,10 @@
     </div>
 
     <?php include './footer.php'; ?>
+
+    
+    <div class="socialmedia">
     <h3>
-         <center>
           <a href="//www.twitter.com/IllinoisFSAE" target="_blank">
             <i class="icon-twitter"></i>
           </a>        
@@ -72,8 +74,8 @@
           <a href="//www.linkedin.com/company/illini-motorsports" target="_blank">
             <i class="icon-linkedin"></i>
           </a>
-      </center>
-       </h3>
-
-  </body>
+      
+    </h3>
+    </div>
+</body>
 </html>
